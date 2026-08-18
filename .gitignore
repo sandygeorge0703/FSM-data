@@ -358,6 +358,32 @@ ASALocalRun/
 # MFractors (Xamarin productivity tool) working folder
 .mfractor/
 
+# Project-specific data and temporary files
+# Ignore large GIS/Raster/Vector data assets and archives
+*.zip
+*.tif
+*.tiff
+*.tfw
+*.aux.xml
+*.ovr
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.mxd
+*.sr.lock
+*.lock
+*.sbn
+*.sbx
+*.shp.xml
+*.tif.xml
+*.xml
+
+# Ignore Python/Jupyter temporary artifacts
+__pycache__/
+.ipynb_checkpoints/
+
 # Local History for Visual Studio
 .localhistory/
 
@@ -396,3 +422,4 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
